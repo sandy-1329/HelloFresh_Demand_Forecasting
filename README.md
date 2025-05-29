@@ -1,71 +1,45 @@
-# 🍽️ HelloFresh – Food Demand Forecasting (Real Data)
+# 📦 HelloFresh – Food Demand Forecasting
 
-This project forecasts weekly recipe demand for HelloFresh-style meal delivery, using real-world historical order data. It demonstrates how time series models like Facebook Prophet and ARIMA can help logistics teams plan inventory and reduce food waste.
-
----
-
-## 📌 Problem Statement
-
-HelloFresh needs to accurately forecast recipe demand each week to:
-
-- Avoid food overstocking or shortages
-- Optimize delivery logistics and kitchen planning
-- Reduce waste and improve customer satisfaction
+Predict future food demand to optimize inventory management and reduce waste in meal kit delivery services.
 
 ---
 
-## 📊 Dataset
-
-We use a real dataset inspired by the [Meal Demand Forecasting dataset from Kaggle](https://www.kaggle.com/datasets/fabiendaniel/meal-demand-forecasting), cleaned and focused on one high-demand meal:
-
-- `week`: Weekly time index (2015–2016)
-- `meal_id`: ID of the meal
-- `num_orders`: Total orders for that meal in the week
+## ✅ Results
+- Mean Absolute Error (MAE): **X.XX** (replace with your metric)  
+- Root Mean Squared Error (RMSE): **X.XX**  
+- R² Score: **X.XX**
 
 ---
 
-## 🧠 Models Used
-
-### 🔮 Facebook Prophet
-- Automatic trend detection
-- Handles seasonality well
-- Easy to interpret
-
-### 🔁 ARIMA (AutoRegressive Integrated Moving Average)
-- Classical time series model
-- Works well with structured, stationary data
-
----
-
-## 🧪 Evaluation Metrics
-
-| Model   | MAE   | RMSE  |
-|---------|-------|--------|
-| Prophet | 5.00  | 5.91   ✅ Best |
-| ARIMA   | 16.52 | 17.94  ⚠️ Higher error |
-
-> Prophet performed better on this dataset due to its flexibility with trends and smaller data volume.
-
----
-
-## 📈 Visualizations
-
-- Actual vs predicted orders
-- Prophet forecast chart
-- ARIMA forecast comparison
+## 📊 Visualizations
+- Demand trends over time  
+- Feature importance  
+- Predicted vs Actual demand  
 
 ---
 
 ## 🛠️ Tech Stack
-
-- Python, Pandas, NumPy
-- Matplotlib
-- Facebook Prophet
-- pmdarima (ARIMA)
-- Google Colab
+- Python, Pandas, Scikit-learn, Matplotlib, Seaborn  
+- Google Colab  
 
 ---
 
-## 📁 Project Structure
+## 🚀 How to Use
+1. Clone the repo  
+2. Run the notebook in Google Colab or locally  
+3. Load the historical demand dataset  
+4. Run cells step-by-step  
+5. Forecast food demand  
 
+---
 
+## 📄 Report
+📘 View the full academic PDF report → HelloFresh_Food_Demand_Forecasting_Report.pdf (add link here)
+
+---
+
+## 👤 Author
+
+**Venkata Sandeep Kumar Reddy**  
+LinkedIn: linkedin.com/in/venkatasandeep  
+Portfolio: coming soon
